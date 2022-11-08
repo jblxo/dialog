@@ -2,7 +2,7 @@ import Modal from './components/Modal';
 import Button from './components/Button';
 
 const App = () => (
-  <div className="flex space-x-2 p-2">
+  <div className="flex flex-wrap space-x-2 p-2">
     <Modal
       trigger={<Button palette="warning">Modal 1</Button>}
       title="Demo Modal 1"

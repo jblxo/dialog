@@ -5,7 +5,7 @@ export type Props = {
 };
 
 const ButtonsGroup = ({buttons}: Props) => (
-  <div className="flex justify-center items-center space-x-2">
+  <div className="flex flex-wrap justify-center items-center space-x-2">
     {(Array.isArray(buttons) ? buttons : [buttons]).map((button, index) => (
       <button.type key={button.key ?? index} {...button.props} />
     ))}
