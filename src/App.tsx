@@ -36,7 +36,7 @@ const App = () => (
     </Modal>
     <Modal
       trigger={<Button palette="primary">Buttonless modal</Button>}
-      title="Demo Modal 2"
+      title="Demo Modal 3"
       icon="cake"
     >
       <p>Modal content</p>
@@ -46,7 +46,7 @@ const App = () => (
     </Modal>
     <Modal
       trigger={<Button palette="secondary">Modal with buttonless header</Button>}
-      title="Demo Modal 2"
+      title="Demo Modal 4"
       description="Modal description"
       icon="beaker"
       footerButtons={<Button>Button 1</Button>}
@@ -59,7 +59,7 @@ const App = () => (
     </Modal>
     <Modal
       trigger={<Button palette="danger">Modal with buttonless footer</Button>}
-      title="Demo Modal 2"
+      title="Demo Modal 5"
       description="Modal description"
       icon="cake"
       headerButtons={<Button>Button 1</Button>}
