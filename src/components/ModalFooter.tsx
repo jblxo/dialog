@@ -9,7 +9,7 @@ export type Props = {
 const ModalFooter = ({description, buttons}: Props) => (
   <div
     className={classNames('flex items-center p-2 bg-blue-300 text-white', {
-      'p-0': !description && !buttons,
+      'p-0': !description && (!buttons || (Array.isArray(buttons) && buttons.length === 0)),
     })}
   >
     {description && <p className="text-sm">{description}</p>}
