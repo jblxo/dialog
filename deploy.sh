@@ -17,6 +17,6 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+git push -f git@github.com:jblxo/dialog.git main:gh-pages
 
 cd -

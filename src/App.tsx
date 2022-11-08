@@ -4,7 +4,7 @@ import Button from './components/Button';
 const App = () => (
   <div className="flex space-x-2 p-2">
     <Modal
-      trigger={<Button className="bg-red-500">Modal 1</Button>}
+      trigger={<Button palette="warning">Modal 1</Button>}
       title="Demo Modal 1"
       description="Modal description"
       icon="beaker"
@@ -22,7 +22,7 @@ const App = () => (
       </p>
     </Modal>
     <Modal
-      trigger={<Button className="bg-purple-500">Modal 2</Button>}
+      trigger={<Button palette="success">Modal 2</Button>}
       title="Demo Modal 2"
       icon="signal"
       headerButtons={[<Button>Button 1</Button>, <Button>Button 2</Button>]}
@@ -35,7 +35,7 @@ const App = () => (
       </p>
     </Modal>
     <Modal
-      trigger={<Button className="bg-green-500">Buttonless modal</Button>}
+      trigger={<Button palette="primary">Buttonless modal</Button>}
       title="Demo Modal 2"
       icon="cake"
     >
@@ -45,7 +45,7 @@ const App = () => (
       tempore in ratione enim ad voluptates?
     </Modal>
     <Modal
-      trigger={<Button className="bg-indigo-500">Modal with buttonless header</Button>}
+      trigger={<Button palette="secondary">Modal with buttonless header</Button>}
       title="Demo Modal 2"
       description="Modal description"
       icon="beaker"
@@ -58,7 +58,7 @@ const App = () => (
       </p>
     </Modal>
     <Modal
-      trigger={<Button className="bg-yellow-500">Modal with buttonless footer</Button>}
+      trigger={<Button palette="danger">Modal with buttonless footer</Button>}
       title="Demo Modal 2"
       description="Modal description"
       icon="cake"
